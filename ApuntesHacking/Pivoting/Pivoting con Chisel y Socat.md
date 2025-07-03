@@ -11,7 +11,7 @@ Tenemos un Laboratorio donde todas las máquinas son Linux. Como atacante, una v
 #!/bin/bash
 # Ten en cuenta cambiar el segmento de red segun el caso
 for i in $(seq 1 254); do
-    timeout 1 bash -c "ping -c 1 10.10.10.$i" &>/dev/null && echo "[+] Host 10.10.10.$i - active" &
+    ping -c 1 -W 1 10.10.10.$i &>/dev/null && echo "[+] Host 10.10.10.$i - active" &
 done; wait
 ```
 
