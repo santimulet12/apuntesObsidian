@@ -14,8 +14,8 @@ Este repositorio contiene mis apuntes personales sobre seguridad informática, h
 
 ### Instalación
 ```bash
-git clone https://github.com/[tu-usuario]/hacking-pentesting-notes.git
-cd hacking-pentesting-notes
+git clone https://github.com/santimulet12/apuntesObsidian.git
+cd apuntesObsidian
 ```
 
 ### Configuración en Obsidian
