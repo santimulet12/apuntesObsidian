@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "7cec87947853c2c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "6eb6b59fad206625",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "682e36b1cb17ee19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Pivoting/Pivoting con Chisel y Socat.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Pivoting con Chisel y Socat"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cd9d3d031a06c670",
+    "type": "split",
+    "children": [
+      {
+        "id": "c866305aa3d02cfb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "89ec88e0ac9fbb58",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "48865f5c7e72adb4",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "6d65a82c5ebd1487",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "c6b602893f524231",
+    "type": "split",
+    "children": [
+      {
+        "id": "869e3daddb6ceadd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "faf76c564f223f4a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Escalada de Privilegios/Library Hijacking Python/Library Hijacking Python.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes de Library Hijacking Python"
+            }
+          },
+          {
+            "id": "24a89d326c68fdd2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Escalada de Privilegios/Library Hijacking Python/Library Hijacking Python.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes de Library Hijacking Python"
+            }
+          },
+          {
+            "id": "0b43a515e3064ca4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "6e83a0c12e399538",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Escalada de Privilegios/Library Hijacking Python/Library Hijacking Python.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema de Library Hijacking Python"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "682e36b1cb17ee19",
+  "lastOpenFiles": [
+    "Pasted image 20250702213245.png",
+    "Pasted image 20250702213144.png",
+    "Pivoting/Pivoting con Chisel y Socat.md",
+    "Pasted image 20250702213106.png",
+    "Pasted image 20250702204729.png",
+    "Pasted image 20250702212611.png",
+    "Pivoting/Pivoting con Metasploit.md",
+    "Pasted image 20250702211712.png",
+    "BufferOverflow/32 bits Win/Buffer Overflow (Maquina Brainpan Vulhub).md",
+    "Pasted image 20250702204457.png",
+    "File Upload/File Upload.md",
+    "BufferOverflow/64 bits Linux/Buffer Overflow (máquina Stack Dockerlabs).md",
+    "Escalada de Privilegios/Path Hijacking.md",
+    "LFI - SMTP - RCE/Remote Code Execution a través del protocolo SMTP, haciendo uso de LFI.md",
+    "ZZZ_IMAGENES/Pasted image 20250702152556.png",
+    "ZZZ_IMAGENES/Pasted image 20250702103208.png",
+    "ZZZ_IMAGENES",
+    "ZZZ_IMAGENES/Pasted image 20250702152217.png",
+    "Pasted image 20250702151954.png",
+    "Pivoting",
+    "Wordpress/Wordpress.md",
+    "LFI - SMTP - RCE",
+    "Wordpress/Sin título 1.md",
+    "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
+    "Wordpress",
+    "Samba SMB",
+    "Escalada de Privilegios/Path Hijacking",
+    "BufferOverflow/GDB GEF Guía.md",
+    "BufferOverflow/64 bits Linux",
+    "BufferOverflow/32 bits Win",
+    "Escalada de Privilegios/Library Hijacking Python.md",
+    "BufferOverflow",
+    "Escalada de Privilegios/Library Hijacking Python",
+    "Aquí anotaré sobre Pentesting.md",
+    "cree un enlace.md"
+  ]
+}
