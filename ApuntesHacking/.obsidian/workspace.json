@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "6eb6b59fad206625",
+        "id": "f53ecbaf1f65f56f",
         "type": "tabs",
         "children": [
           {
-            "id": "682e36b1cb17ee19",
+            "id": "f97afb736853eb58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
+                "file": "LFI/Local File Inclusion   (Máquina Doctor - Vulnyx).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Enumerar recursos compartidos SMB 445 (symfonos1)"
+              "title": "Local File Inclusion   (Máquina Doctor - Vulnyx)"
+            }
+          },
+          {
+            "id": "fbf6bfe8d868fbbb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Password Cracking/id_rsa Cracking.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "id_rsa Cracking"
+            }
+          },
+          {
+            "id": "068ecf81c6c203a8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Writable etc passwd Privilege Escalation"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -168,23 +197,26 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "682e36b1cb17ee19",
+  "active": "068ecf81c6c203a8",
   "lastOpenFiles": [
-    "Pasted image 20250703221948.png",
-    "Password Cracking/Zip Password Cracking.md",
+    "ZZZ_IMAGENES/Pasted image 20250705001435.png",
+    "ZZZ_IMAGENES/Pasted image 20250705001348.png",
+    "ZZZ_IMAGENES/Pasted image 20250705000907.png",
+    "ZZZ_IMAGENES/Pasted image 20250705000702.png",
+    "ZZZ_IMAGENES/Pasted image 20250705000531.png",
+    "ZZZ_IMAGENES/Pasted image 20250705000505.png",
+    "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
+    "Pasted image 20250705001040.png",
+    "Password Cracking/id_rsa Cracking.md",
+    "ZZZ_IMAGENES/Pasted image 20250704235032.png",
+    "ZZZ_IMAGENES/Pasted image 20250704235324.png",
+    "ZZZ_IMAGENES/Pasted image 20250704231912.png",
+    "Sin nombre",
     "Password Cracking",
-    "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
+    "LFI/Local File Inclusion   (Máquina Doctor - Vulnyx).md",
+    "LFI",
     "Pivoting/Pivoting con Chisel y Socat.md",
-    "ZZZ_IMAGENES/Pasted image 20250703142853.png",
-    "ZZZ_IMAGENES/Pasted image 20250703144911.png",
-    "ZZZ_IMAGENES/Pasted image 20250703144815.png",
-    "ZZZ_IMAGENES/Pasted image 20250703142325.png",
-    "ZZZ_IMAGENES/Pasted image 20250703140946.png",
-    "ZZZ_IMAGENES/Pasted image 20250703140616.png",
     "Pivoting/Pivoting con Metasploit.md",
-    "ZZZ_IMAGENES/Pasted image 20250703140517.png",
-    "Pasted image 20250703135851.png",
-    "ZZZ_IMAGENES/Pasted image 20250703132655.png",
     "BufferOverflow/32 bits Win/Buffer Overflow (Maquina Brainpan Vulhub).md",
     "File Upload/File Upload.md",
     "BufferOverflow/64 bits Linux/Buffer Overflow (máquina Stack Dockerlabs).md",
@@ -195,14 +227,13 @@
     "Wordpress/Wordpress.md",
     "LFI - SMTP - RCE",
     "Wordpress/Sin título 1.md",
+    "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
     "Wordpress",
     "Samba SMB",
     "Escalada de Privilegios/Path Hijacking",
     "BufferOverflow/GDB GEF Guía.md",
     "BufferOverflow/64 bits Linux",
-    "BufferOverflow/32 bits Win",
     "Escalada de Privilegios/Library Hijacking Python.md",
-    "BufferOverflow",
     "Aquí anotaré sobre Pentesting.md",
     "cree un enlace.md"
   ]
