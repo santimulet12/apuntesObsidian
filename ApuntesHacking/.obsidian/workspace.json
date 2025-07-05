@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
+                "file": "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Writable etc passwd Privilege Escalation"
+              "title": "Enumerar recursos compartidos SMB 445 (symfonos1)"
             }
           }
         ],
@@ -199,13 +199,15 @@
   },
   "active": "068ecf81c6c203a8",
   "lastOpenFiles": [
+    "Pivoting/Pivoting con Chisel y Socat.md",
+    "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
+    "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
     "ZZZ_IMAGENES/Pasted image 20250705001435.png",
     "ZZZ_IMAGENES/Pasted image 20250705001348.png",
     "ZZZ_IMAGENES/Pasted image 20250705000907.png",
     "ZZZ_IMAGENES/Pasted image 20250705000702.png",
     "ZZZ_IMAGENES/Pasted image 20250705000531.png",
     "ZZZ_IMAGENES/Pasted image 20250705000505.png",
-    "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
     "Pasted image 20250705001040.png",
     "Password Cracking/id_rsa Cracking.md",
     "ZZZ_IMAGENES/Pasted image 20250704235032.png",
@@ -215,7 +217,6 @@
     "Password Cracking",
     "LFI/Local File Inclusion   (Máquina Doctor - Vulnyx).md",
     "LFI",
-    "Pivoting/Pivoting con Chisel y Socat.md",
     "Pivoting/Pivoting con Metasploit.md",
     "BufferOverflow/32 bits Win/Buffer Overflow (Maquina Brainpan Vulhub).md",
     "File Upload/File Upload.md",
@@ -227,7 +228,6 @@
     "Wordpress/Wordpress.md",
     "LFI - SMTP - RCE",
     "Wordpress/Sin título 1.md",
-    "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
     "Wordpress",
     "Samba SMB",
     "Escalada de Privilegios/Path Hijacking",

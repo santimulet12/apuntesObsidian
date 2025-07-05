@@ -1,8 +1,24 @@
+Enumeraciones que podemos llevar a cabo con distintas herramientas:
+
+```
+crackmapexec smb <IP_VICTIMA>
+```
+
+```
+enum4linux -a 172.17.0.3
+```
+
 Vamos a listar los recursos compartidos de la maquina:
 ```
 smbmap -H <IP_VICTIMA>
 ```
+
 ![[Pasted image 20250701201307.png]]
+
+```
+smbclient -L //<IP_VICTIMA> -N
+```
+
 Vemos un recurso llamado "Helios personal share", por lo tanto podemos creer que Helios es un usuario potencial del sistema.
 Ahora, intentaremos listar de forma recursiva los directorios compartidos, en los cuales tengamos permisos de lectura sin proporcionar credenciales.
 ```
@@ -30,6 +46,10 @@ Ahora vamos a listar de forma recursiva el contenido del recurso compartido "hel
 smbmap -H <IP_VICTIMA> -u helios -p qwerty -r helios
 ```
 ![[Pasted image 20250701205515.png]]
+
+```
+smbclient //<IP_VICTIMA>/helios -U helios --password qwerty
+```
 
 Vamos a descargarnos todos los archivos del recurso compartido:
 
