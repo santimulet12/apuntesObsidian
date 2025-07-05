@@ -8,49 +8,34 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f97afb736853eb58",
+            "id": "573ae6ef68b424f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "LFI/Local File Inclusion   (Máquina Doctor - Vulnyx).md",
+                "file": "eJPTv2/Primera máquina (10.0.2.5).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Local File Inclusion   (Máquina Doctor - Vulnyx)"
+              "title": "Primera máquina (10.0.2.5)"
             }
           },
           {
-            "id": "fbf6bfe8d868fbbb",
+            "id": "33bd2216a4caf4ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Password Cracking/id_rsa Cracking.md",
+                "file": "Wordpress/Wordpress.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "id_rsa Cracking"
-            }
-          },
-          {
-            "id": "068ecf81c6c203a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Enumerar recursos compartidos SMB 445 (symfonos1)"
+              "title": "Wordpress"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,23 +182,30 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "068ecf81c6c203a8",
+  "active": "89ec88e0ac9fbb58",
   "lastOpenFiles": [
-    "Pivoting/Pivoting con Chisel y Socat.md",
+    "ZZZ_IMAGENES/Pasted image 20250705141234.png",
+    "ZZZ_IMAGENES/Pasted image 20250705141040.png",
+    "ZZZ_IMAGENES/Pasted image 20250705140939.png",
+    "Escalada de Privilegios/Path Hijacking.md",
+    "eJPTv2/Primera máquina (10.0.2.5).md",
+    "ZZZ_IMAGENES/Pasted image 20250705140214.png",
+    "ZZZ_IMAGENES/Pasted image 20250705140025.png",
+    "ZZZ_IMAGENES/Pasted image 20250705135824.png",
+    "ZZZ_IMAGENES/Pasted image 20250705135435.png",
+    "ZZZ_IMAGENES/Pasted image 20250705135250.png",
+    "ZZZ_IMAGENES/Pasted image 20250705134844.png",
+    "ZZZ_IMAGENES/Pasted image 20250705134312.png",
+    "ZZZ_IMAGENES/Pasted image 20250705134048.png",
+    "Wordpress/Wordpress.md",
     "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
+    "eJPTv2/Escaneo de los dispositivos.md",
+    "eJPTv2/Diagrama de red.md",
+    "eJPTv2",
+    "Wordpress/xmlrpc.php.md",
+    "Pivoting/Pivoting con Chisel y Socat.md",
     "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
-    "ZZZ_IMAGENES/Pasted image 20250705001435.png",
-    "ZZZ_IMAGENES/Pasted image 20250705001348.png",
-    "ZZZ_IMAGENES/Pasted image 20250705000907.png",
-    "ZZZ_IMAGENES/Pasted image 20250705000702.png",
-    "ZZZ_IMAGENES/Pasted image 20250705000531.png",
-    "ZZZ_IMAGENES/Pasted image 20250705000505.png",
-    "Pasted image 20250705001040.png",
     "Password Cracking/id_rsa Cracking.md",
-    "ZZZ_IMAGENES/Pasted image 20250704235032.png",
-    "ZZZ_IMAGENES/Pasted image 20250704235324.png",
-    "ZZZ_IMAGENES/Pasted image 20250704231912.png",
-    "Sin nombre",
     "Password Cracking",
     "LFI/Local File Inclusion   (Máquina Doctor - Vulnyx).md",
     "LFI",
@@ -221,11 +213,9 @@
     "BufferOverflow/32 bits Win/Buffer Overflow (Maquina Brainpan Vulhub).md",
     "File Upload/File Upload.md",
     "BufferOverflow/64 bits Linux/Buffer Overflow (máquina Stack Dockerlabs).md",
-    "Escalada de Privilegios/Path Hijacking.md",
     "LFI - SMTP - RCE/Remote Code Execution a través del protocolo SMTP, haciendo uso de LFI.md",
     "ZZZ_IMAGENES",
     "Pivoting",
-    "Wordpress/Wordpress.md",
     "LFI - SMTP - RCE",
     "Wordpress/Sin título 1.md",
     "Wordpress",

@@ -7,6 +7,12 @@ wpscan -U admin -P /usr/share/wordlist/rockyou.txt --url http://10.0.2.8/wp-logi
 ```
 wpscan --url http://10.0.2.8/
 ```
+
+o
+
+```
+wpscan --url http://10.0.2.8/ -e p --plugins-detection aggressive
+```
 ![[Pasted image 20250701213227.png]]
 Vamos a buscar exploits asociados con los plugins
 ```
