@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Log Poisoning/Apache Logs.md",
+                "file": "Fuerza Bruta/Local users.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Apache Logs"
+              "title": "Local users"
             }
           }
         ]
@@ -170,26 +170,32 @@
   },
   "active": "89ec88e0ac9fbb58",
   "lastOpenFiles": [
-    "ZZZ_IMAGENES/Pasted image 20250713173155.png",
-    "ZZZ_IMAGENES/Pasted image 20250713172305.png",
-    "ZZZ_IMAGENES/Pasted image 20250713172128.png",
-    "ZZZ_IMAGENES/Pasted image 20250713171546.png",
-    "ZZZ_IMAGENES/Pasted image 20250713171517.png",
-    "Pasted image 20250713171440.png",
+    "ZZZ_IMAGENES/Pasted image 20250715193616.png",
+    "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
+    "Fuerza Bruta/Local users.md",
+    "Fuerza Bruta/Servicio SSH.md",
+    "ZZZ_IMAGENES/Pasted image 20250715191230.png",
+    "ZZZ_IMAGENES/Pasted image 20250715191109.png",
+    "ZZZ_IMAGENES/Pasted image 20250715191028.png",
+    "Fuerza Bruta/Panel login web.md",
+    "ZZZ_IMAGENES/Pasted image 20250715190623.png",
+    "ZZZ_IMAGENES/Pasted image 20250715184227.png",
+    "ZZZ_IMAGENES/Pasted image 20250715183611.png",
+    "Fuerza Bruta/Simple Http Login.md",
+    "ZZZ_IMAGENES/Pasted image 20250715180750.png",
+    "Pasted image 20250715180552.png",
+    "ZZZ_IMAGENES/Pasted image 20250715180411.png",
     "Log Poisoning/Apache Logs.md",
-    "ZZZ_IMAGENES/Pasted image 20250713171129.png",
-    "ZZZ_IMAGENES/Pasted image 20250713171058.png",
-    "ZZZ_IMAGENES/Pasted image 20250713170842.png",
+    "Fuerza Bruta",
+    "Sin título.md",
+    "ZZZ_IMAGENES/Pasted image 20250713173155.png",
     "eJPTv2/Máquina (10.0.2.6).md",
     "Log Poisoning",
     "Wordpress/Wordpress.md",
     "Pivoting/Pivoting con Metasploit.md",
     "Pivoting/Pivoting con Chisel y Socat.md",
-    "Pasted image 20250705155955.png",
     "Escalada de Privilegios/Local Port Forwarding pydoc(máquina doc HackMyVm).md",
-    "Pasted image 20250705160542.png",
     "Escalada de Privilegios/Path Hijacking.md",
-    "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
     "eJPTv2/Escaneo de los dispositivos.md",
     "eJPTv2/Máquina (10.0.2.5).md",
     "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
@@ -209,11 +215,6 @@
     "LFI - SMTP - RCE",
     "Wordpress/Sin título 1.md",
     "Wordpress",
-    "Samba SMB",
-    "Escalada de Privilegios/Path Hijacking",
-    "BufferOverflow/GDB GEF Guía.md",
-    "Escalada de Privilegios/Library Hijacking Python.md",
-    "Aquí anotaré sobre Pentesting.md",
-    "cree un enlace.md"
+    "Samba SMB"
   ]
 }

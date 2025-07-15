@@ -3,7 +3,7 @@
 #### Writable Files
 
 ```
-admin@doctor:~$ find / -writable -type f 2>/dev/null |grep -viE "var|proc|sys|home"
+find / -writable -type f 2>/dev/null |grep -viE "var|proc|sys|home"
 ```
 
 ![[Pasted image 20250705000505.png]]
