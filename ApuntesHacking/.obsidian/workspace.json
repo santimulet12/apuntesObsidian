@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f53ecbaf1f65f56f",
+        "id": "f74bf63925ebf382",
         "type": "tabs",
         "children": [
           {
-            "id": "573ae6ef68b424f6",
+            "id": "b597ca34b19fe0a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fuerza Bruta/Local users.md",
+                "file": "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Local users"
+              "title": "Writable etc passwd Privilege Escalation"
             }
           }
         ]
@@ -168,29 +168,31 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "89ec88e0ac9fbb58",
+  "active": "b597ca34b19fe0a5",
   "lastOpenFiles": [
-    "ZZZ_IMAGENES/Pasted image 20250715193616.png",
+    "LFI/Log Poisoning/Apache Logs.md",
     "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
+    "LFI/Wrappers.md",
+    "LFI/Local File Inclusion   (Máquina Doctor - Vulnyx).md",
+    "LFI/LFI - SMTP - RCE/Remote Code Execution a través del protocolo SMTP, haciendo uso de LFI.md",
+    "Pasted image 20250715223548.png",
+    "Pasted image 20250715223230.png",
+    "Pasted image 20250715220643.png",
     "Fuerza Bruta/Local users.md",
     "Fuerza Bruta/Servicio SSH.md",
+    "Fuerza Bruta/Panel login web.md",
+    "Fuerza Bruta/Simple Http Login.md",
+    "ZZZ_IMAGENES/Pasted image 20250715193616.png",
     "ZZZ_IMAGENES/Pasted image 20250715191230.png",
     "ZZZ_IMAGENES/Pasted image 20250715191109.png",
     "ZZZ_IMAGENES/Pasted image 20250715191028.png",
-    "Fuerza Bruta/Panel login web.md",
     "ZZZ_IMAGENES/Pasted image 20250715190623.png",
     "ZZZ_IMAGENES/Pasted image 20250715184227.png",
     "ZZZ_IMAGENES/Pasted image 20250715183611.png",
-    "Fuerza Bruta/Simple Http Login.md",
-    "ZZZ_IMAGENES/Pasted image 20250715180750.png",
-    "Pasted image 20250715180552.png",
-    "ZZZ_IMAGENES/Pasted image 20250715180411.png",
-    "Log Poisoning/Apache Logs.md",
     "Fuerza Bruta",
     "Sin título.md",
-    "ZZZ_IMAGENES/Pasted image 20250713173155.png",
     "eJPTv2/Máquina (10.0.2.6).md",
-    "Log Poisoning",
+    "LFI/Log Poisoning",
     "Wordpress/Wordpress.md",
     "Pivoting/Pivoting con Metasploit.md",
     "Pivoting/Pivoting con Chisel y Socat.md",
@@ -204,16 +206,13 @@
     "Wordpress/xmlrpc.php.md",
     "Password Cracking/id_rsa Cracking.md",
     "Password Cracking",
-    "LFI/Local File Inclusion   (Máquina Doctor - Vulnyx).md",
     "LFI",
     "BufferOverflow/32 bits Win/Buffer Overflow (Maquina Brainpan Vulhub).md",
     "File Upload/File Upload.md",
     "BufferOverflow/64 bits Linux/Buffer Overflow (máquina Stack Dockerlabs).md",
-    "LFI - SMTP - RCE/Remote Code Execution a través del protocolo SMTP, haciendo uso de LFI.md",
     "ZZZ_IMAGENES",
     "Pivoting",
-    "LFI - SMTP - RCE",
-    "Wordpress/Sin título 1.md",
+    "LFI/LFI - SMTP - RCE",
     "Wordpress",
     "Samba SMB"
   ]
