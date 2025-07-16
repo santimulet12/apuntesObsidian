@@ -11,14 +11,12 @@
             "id": "b597ca34b19fe0a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
-                "mode": "source",
-                "source": false
+                "file": "ZZZ_IMAGENES/Pasted image 20250715220643.png"
               },
-              "icon": "lucide-file",
-              "title": "Writable etc passwd Privilege Escalation"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250715220643"
             }
           }
         ]
@@ -168,27 +166,29 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "b597ca34b19fe0a5",
+  "active": "89ec88e0ac9fbb58",
   "lastOpenFiles": [
-    "LFI/Log Poisoning/Apache Logs.md",
+    "ZZZ_IMAGENES/Pasted image 20250715223230.png",
+    "Escalada de Privilegios/Variables de entorno.md",
+    "Escalada de Privilegios/Ruby (Nokogiri).md",
+    "ZZZ_IMAGENES/Pasted image 20250716124253.png",
+    "ZZZ_IMAGENES/Pasted image 20250716123758.png",
+    "ZZZ_IMAGENES/Pasted image 20250716120725.png",
+    "ZZZ_IMAGENES/Pasted image 20250716120542.png",
+    "Fuerza Bruta/Local users.md",
     "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
+    "LFI/Log Poisoning/Apache Logs.md",
     "LFI/Wrappers.md",
     "LFI/Local File Inclusion   (Máquina Doctor - Vulnyx).md",
     "LFI/LFI - SMTP - RCE/Remote Code Execution a través del protocolo SMTP, haciendo uso de LFI.md",
-    "Pasted image 20250715223548.png",
-    "Pasted image 20250715223230.png",
-    "Pasted image 20250715220643.png",
-    "Fuerza Bruta/Local users.md",
+    "ZZZ_IMAGENES/Pasted image 20250715223548.png",
+    "ZZZ_IMAGENES/Pasted image 20250715220643.png",
     "Fuerza Bruta/Servicio SSH.md",
     "Fuerza Bruta/Panel login web.md",
     "Fuerza Bruta/Simple Http Login.md",
     "ZZZ_IMAGENES/Pasted image 20250715193616.png",
     "ZZZ_IMAGENES/Pasted image 20250715191230.png",
     "ZZZ_IMAGENES/Pasted image 20250715191109.png",
-    "ZZZ_IMAGENES/Pasted image 20250715191028.png",
-    "ZZZ_IMAGENES/Pasted image 20250715190623.png",
-    "ZZZ_IMAGENES/Pasted image 20250715184227.png",
-    "ZZZ_IMAGENES/Pasted image 20250715183611.png",
     "Fuerza Bruta",
     "Sin título.md",
     "eJPTv2/Máquina (10.0.2.6).md",
@@ -208,8 +208,6 @@
     "Password Cracking",
     "LFI",
     "BufferOverflow/32 bits Win/Buffer Overflow (Maquina Brainpan Vulhub).md",
-    "File Upload/File Upload.md",
-    "BufferOverflow/64 bits Linux/Buffer Overflow (máquina Stack Dockerlabs).md",
     "ZZZ_IMAGENES",
     "Pivoting",
     "LFI/LFI - SMTP - RCE",

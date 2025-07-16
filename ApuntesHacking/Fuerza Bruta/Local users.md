@@ -14,7 +14,18 @@ echo "[*] Diccionario: rockyou.txt"
 echo "[*] Esto puede tomar tiempo..."  
 echo ""  
   
-counter=0  
+counter=0
+
+cleanup(){
+   echo ""
+   echo "[!]Cancelando operación..."
+   rm -rf touch.tmp 2>/dev/null
+   exit 1
+ }
+
+ # (Ctrl+C)
+ trap cleanup SIGINT
+
 while IFS= read -r password; do  
     counter=$((counter + 1))  
       
