@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f74bf63925ebf382",
+        "id": "69447222861b0a27",
         "type": "tabs",
         "children": [
           {
-            "id": "b597ca34b19fe0a5",
+            "id": "e13f82308d80f420",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "ZZZ_IMAGENES/Pasted image 20250715220643.png"
+                "file": "SQLi (PortSwigger)/Listing the database contents on non-Oracle databases (lab 5).md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250715220643"
+              "icon": "lucide-file",
+              "title": "Listing the database contents on non-Oracle databases (lab 5)"
             }
           }
         ]
@@ -76,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "c6b602893f524231",
@@ -168,29 +170,36 @@
   },
   "active": "89ec88e0ac9fbb58",
   "lastOpenFiles": [
-    "ZZZ_IMAGENES/Pasted image 20250715223230.png",
+    "ZZZ_IMAGENES/Pasted image 20250718183648.png",
+    "ZZZ_IMAGENES/Pasted image 20250718183626.png",
+    "ZZZ_IMAGENES/Pasted image 20250718183352.png",
+    "SQLi (PortSwigger)/Querying the database type and version on Oracle. (lab 3).md",
+    "SQLi (PortSwigger)/WHERE clause allowing retrieval of hidden data. (lab 1).md",
+    "SQLi (PortSwigger)/Querying the database type and version on MySQL and Microsoft (lab4).md",
+    "SQLi (PortSwigger)/Listing the database contents on non-Oracle databases (lab 5).md",
+    "SQLi (PortSwigger)/Login bypass (lab 2).md",
+    "ZZZ_IMAGENES/Pasted image 20250718182515.png",
+    "ZZZ_IMAGENES/Pasted image 20250718181406.png",
+    "ZZZ_IMAGENES/Pasted image 20250718173103.png",
+    "ZZZ_IMAGENES/Pasted image 20250718171328.png",
+    "ZZZ_IMAGENES/Pasted image 20250718171306.png",
+    "ZZZ_IMAGENES/Pasted image 20250718170140.png",
+    "ZZZ_IMAGENES/Pasted image 20250718165549.png",
+    "ZZZ_IMAGENES/Pasted image 20250718163727.png",
+    "Sin título.md",
+    "SQLi (PortSwigger)",
     "Escalada de Privilegios/Variables de entorno.md",
     "Escalada de Privilegios/Ruby (Nokogiri).md",
-    "ZZZ_IMAGENES/Pasted image 20250716124253.png",
-    "ZZZ_IMAGENES/Pasted image 20250716123758.png",
-    "ZZZ_IMAGENES/Pasted image 20250716120725.png",
-    "ZZZ_IMAGENES/Pasted image 20250716120542.png",
     "Fuerza Bruta/Local users.md",
     "Escalada de Privilegios/Writable etc passwd Privilege Escalation.md",
     "LFI/Log Poisoning/Apache Logs.md",
     "LFI/Wrappers.md",
     "LFI/Local File Inclusion   (Máquina Doctor - Vulnyx).md",
     "LFI/LFI - SMTP - RCE/Remote Code Execution a través del protocolo SMTP, haciendo uso de LFI.md",
-    "ZZZ_IMAGENES/Pasted image 20250715223548.png",
-    "ZZZ_IMAGENES/Pasted image 20250715220643.png",
     "Fuerza Bruta/Servicio SSH.md",
     "Fuerza Bruta/Panel login web.md",
     "Fuerza Bruta/Simple Http Login.md",
-    "ZZZ_IMAGENES/Pasted image 20250715193616.png",
-    "ZZZ_IMAGENES/Pasted image 20250715191230.png",
-    "ZZZ_IMAGENES/Pasted image 20250715191109.png",
     "Fuerza Bruta",
-    "Sin título.md",
     "eJPTv2/Máquina (10.0.2.6).md",
     "LFI/Log Poisoning",
     "Wordpress/Wordpress.md",
@@ -200,18 +209,12 @@
     "Escalada de Privilegios/Path Hijacking.md",
     "eJPTv2/Escaneo de los dispositivos.md",
     "eJPTv2/Máquina (10.0.2.5).md",
-    "Samba SMB/Enumerar recursos compartidos SMB 445 (symfonos1).md",
-    "eJPTv2/Diagrama de red.md",
     "eJPTv2",
-    "Wordpress/xmlrpc.php.md",
-    "Password Cracking/id_rsa Cracking.md",
     "Password Cracking",
     "LFI",
-    "BufferOverflow/32 bits Win/Buffer Overflow (Maquina Brainpan Vulhub).md",
     "ZZZ_IMAGENES",
     "Pivoting",
     "LFI/LFI - SMTP - RCE",
-    "Wordpress",
-    "Samba SMB"
+    "Wordpress"
   ]
 }
