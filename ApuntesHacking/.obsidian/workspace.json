@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Burlando restricción sudo (!root).md",
+                "file": "Password Cracking/zip Cracking.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Burlando restricción sudo (!root)"
+              "title": "zip Cracking"
             }
           }
         ],
@@ -185,10 +185,12 @@
   },
   "active": "2e9c7a10f86b23f5",
   "lastOpenFiles": [
-    "Pasted image 20250802140633.png",
-    "Pasted image 20250802140330.png",
+    "Fuerza Bruta/Servicio SSH.md",
+    "Password Cracking/zip Cracking.md",
     "Git/Recomposición de proyecto ruta .git.md",
-    "Burlando restricción sudo (!root).md",
+    "Escalada de Privilegios/Burlando restricción sudo (!root).md",
+    "ZZZ_IMAGENES/Pasted image 20250802140633.png",
+    "ZZZ_IMAGENES/Pasted image 20250802140330.png",
     "Git/Gitea - Git Hooks.md",
     "ZZZ_IMAGENES/Pasted image 20250802135413.png",
     "ZZZ_IMAGENES/Pasted image 20250802135328.png",
@@ -203,7 +205,6 @@
     "ZZZ_IMAGENES/Pasted image 20250802130127.png",
     "ZZZ_IMAGENES/Pasted image 20250802130027.png",
     "ZZZ_IMAGENES/Pasted image 20250802130013.png",
-    "ZZZ_IMAGENES/Pasted image 20250802125746.png",
     "Gestores de contenido",
     "Git",
     "SQLI (PortSwigger)/Cargar archivos internos de la máquina.md",
@@ -224,7 +225,6 @@
     "SQLI (PortSwigger)/(Lab 11) Blind SQL injection with conditional responses.md",
     "Password Cracking/id_rsa Cracking.md",
     "SQLI (PortSwigger)/(Lab 10) SQL injection UNION attack, retrieving multiple values in a single column.md",
-    "Fuerza Bruta/Simple Http Login.md",
     "SQLi (PortSwigger)/Sin nombre",
     "SQLI (PortSwigger)",
     "Fuerza Bruta",
